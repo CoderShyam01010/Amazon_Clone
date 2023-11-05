@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; /*if a box width is 5px and height is 5px & we give border 2px then total size will be 7px & 7px but if we use border box then border size includes with the height & width*/
+
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;/*all element in the navbar came to center*/
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width:113px;
+}
+.logo{
+    height: 50px;
+    width:100%;
+    background-size:cover;
+    background-image: url(amazon_logo.png);
+}
+.border{
+    border:1.5px solid transparent;/*by using this when we hover content will not shake*/
+}
+.border:hover{
+    border:1.5px solid white ;
+}
+/*Box 2*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem; /*we use rem instead of px to make it's responsive*/
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-icon{
+    display:flex; /*display:flex is use to display element in a same line*/
+    margin-bottom: 2px;;
+}
+/*Box-3*/
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: none;
+    border: 2px solid transparent;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 55px;
+    border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;/*centre in x axis*/
+    align-items: center;/*center in y axis*/
+    font-size: 1.3rem;
+    background-color: rgb(230, 182, 25);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+.account{
+    font-weight: 700;
+}
+.border{
+    font-weight: 700;
+}
+/*Box 6*/
+.nav-cart i{
+    font-size: 25px;
+}
+.nav-cart{
+    font-weight: 700;
+}
+
+/*Pannel*/
+
+.pannel-opt{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0b0525;
+    color: #f3f3f3;
+   height: 39px;
+   align-items: center;
+}
+
+/*Hero section*/
+.hero{
+    height: 350px;
+    background-size: cover;
+    background-image: url(71cvRGs+pPL._SX3000_.jpg);
+    
+}
+
+/*Shop Section*/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+}
